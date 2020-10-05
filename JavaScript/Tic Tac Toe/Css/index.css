@@ -1,0 +1,373 @@
+@import url('../Fonts/MTNBrighterSans/MTNBrighterSans.css');
+
+*{
+    font-family: roboto, MTNBRighterSans-Regular;
+    box-sizing: border-box;
+}
+
+@media (max-width: 380px) {
+    .intro{
+        text-align: center;
+    }
+    .introText{
+        font-size: 5.5vw;
+        color: slategrey;
+    }
+    .character{
+        margin: 0px !important;
+    }
+    .c{
+        display: flex;
+        justify-content: center;
+    }
+    .opt{
+        text-align: center;
+        border: 1px solid slategrey;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        transition: backgroundColor .5s;
+    }
+    .choosen{
+        background-color: indigo;
+    }
+    .choosen .o, .choosen .x{
+        color: whitesmoke;
+    }
+    .o, .x{
+        font-size: 5vw;
+        color: slategrey;
+        margin: 10px 0px 0px 0px;
+        transition: color .5s;
+    }
+    .turn{
+        text-align: center;
+    }
+    .turnText{
+        font-size: 5vw;
+        color: black;
+    }
+    .coverage{
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px;
+    }
+    .board{
+        display: inline-block;
+        border-radius: 5px
+    }
+    .cell{
+        height: 100px;
+        width: 100px;
+        border: 1px solid slategrey;
+        margin: 0px;
+        float: left;
+    }
+    .edgeTL{
+        border-top-left-radius: 10px;
+    }
+    .edgeTR{
+        border-top-right-radius: 10px;
+    }
+    .edgeBL{
+        border-bottom-left-radius: 10px;
+    }
+    .edgeBR{
+        border-bottom-right-radius: 10px;
+    }
+    .cell{
+        display: flex;
+        justify-content: center;
+        font-size: 13vw;
+        color: slategrey;
+        padding: 13px 0px 0px 0px;
+    }
+    .controls{
+        margin: 0px;
+    }
+    .optDown{
+        text-align: center;
+        border: 1px solid slategrey;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+    }
+    .reset{
+        font-size: 5vw;
+        color: slategrey;
+        margin: 10px 0px 0px 0px;
+    }
+    .choosenAni{
+        animation: cA 1s 1 linear;
+    }
+    @keyframes cA{
+        from{
+            background-color: none;
+        }
+        50%{
+            background-color: indigo;
+        }
+        to{
+            background-color: none;
+        }
+    }
+    .cTextAni{
+        animation: cAT 1s 1 linear;
+    }
+    @keyframes cAT{
+        from{
+            color: slategrey;
+        }
+        50%{
+            color: whitesmoke;
+        }
+        to{
+            color: slategrey;
+        }
+    }
+}
+
+@media (min-width: 381px) AND (max-width: 760px) {
+
+    .intro{
+        text-align: center;
+    }
+    .introText{
+        font-size: 4vw;
+        color: slategrey;
+    }
+    .character{
+        margin: 0px !important;
+    }
+    .opt{
+        text-align: center;
+        border: 1px solid slategrey;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        transition: backgroundColor .5s;
+    }
+    .c{
+        display: flex;
+        justify-content: center;
+    }
+    .choosen{
+        background-color: indigo;
+    }
+    .choosen .o, .choosen .x{
+        color: whitesmoke;
+    }
+    .o, .x{
+        font-size: 3vw;
+        color: slategrey;
+        margin: 10px 0px 0px 0px;
+        transition: color .5s;
+    }
+    .turn{
+        text-align: center;
+    }
+    .turnText{
+        font-size: 3.5vw;
+        color: black;
+    }
+    .coverage{
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px;
+    }
+    .board{
+        display: inline-block;
+        border-radius: 5px
+    }
+    .cell{
+        height: 100px;
+        width: 100px;
+        border: 1px solid slategrey;
+        margin: 0px;
+        float: left;
+    }
+    .edgeTL{
+        border-top-left-radius: 10px;
+    }
+    .edgeTR{
+        border-top-right-radius: 10px;
+    }
+    .edgeBL{
+        border-bottom-left-radius: 10px;
+    }
+    .edgeBR{
+        border-bottom-right-radius: 10px;
+    }
+    .cell{
+        display: flex;
+        justify-content: center;
+        font-size: 7vw;
+        color: slategrey;
+        padding: 13px 0px 0px 0px;
+    }
+    .controls{
+        margin: 0px;
+    }
+    .optDown{
+        text-align: center;
+        border: 1px solid slategrey;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+    }
+    .reset{
+        font-size: 2.5vw;
+        color: slategrey;
+        margin: 10px 0px 0px 0px;
+    }
+    .choosenAni{
+        animation: cA 1s 1 linear;
+    }
+    @keyframes cA{
+        from{
+            background-color: none;
+        }
+        50%{
+            background-color: indigo;
+        }
+        to{
+            background-color: none;
+        }
+    }
+    .cTextAni{
+        animation: cAT 1s 1 linear;
+    }
+    @keyframes cAT{
+        from{
+            color: slategrey;
+        }
+        50%{
+            color: whitesmoke;
+        }
+        to{
+            color: slategrey;
+        }
+    }
+}
+
+@media (min-width: 761px) {
+    .intro{
+        text-align: center;
+    }
+    .introText{
+        font-size: 3.7vw;
+        color: slategrey;
+    }
+    .character{
+        margin: 0px !important;
+    }
+    .opt{
+        text-align: center;
+        border: 1px solid slategrey;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        transition: backgroundColor .5s;
+    }
+    .c{
+        display: flex;
+        justify-content: center;
+    }
+    .choosen{
+        background-color: indigo;
+    }
+    .choosen .o, .choosen .x{
+        color: whitesmoke;
+    }
+    .o, .x{
+        font-size: 1.7vw;
+        color: slategrey;
+        margin: 10px 0px 0px 0px;
+        transition: color .5s;
+    }
+    .turn{
+        text-align: center;
+    }
+    .turnText{
+        font-size: 2.5vw;
+        color: black;
+    }
+    .coverage{
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px;
+    }
+    .board{
+        display: inline-block;
+        border-radius: 5px
+    }
+    .cell{
+        height: 100px;
+        width: 100px;
+        border: 1px solid slategrey;
+        margin: 0px;
+        float: left;
+    }
+    .edgeTL{
+        border-top-left-radius: 10px;
+    }
+    .edgeTR{
+        border-top-right-radius: 10px;
+    }
+    .edgeBL{
+        border-bottom-left-radius: 10px;
+    }
+    .edgeBR{
+        border-bottom-right-radius: 10px;
+    }
+    .cell{
+        display: flex;
+        justify-content: center;
+        font-size: 5vw;
+        color: slategrey;
+        padding: 13px 0px 0px 0px;
+    }
+    .controls{
+        margin: 0px;
+    }
+    .optDown{
+        text-align: center;
+        border: 1px solid slategrey;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+    }
+    .reset{
+        font-size: 1.5vw;
+        color: slategrey;
+        margin: 10px 0px 0px 0px;
+    }
+    .choosenAni{
+        animation: cA 1s 1 linear;
+    }
+    @keyframes cA{
+        from{
+            background-color: none;
+        }
+        50%{
+            background-color: indigo;
+        }
+        to{
+            background-color: none;
+        }
+    }
+    .cTextAni{
+        animation: cAT 1s 1 linear;
+    }
+    @keyframes cAT{
+        from{
+            color: slategrey;
+        }
+        50%{
+            color: whitesmoke;
+        }
+        to{
+            color: slategrey;
+        }
+    }
+}
