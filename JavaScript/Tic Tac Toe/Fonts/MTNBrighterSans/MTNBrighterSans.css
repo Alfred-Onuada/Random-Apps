@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MTNBrighterSans-Regular';
+    src: url('MTNBrighterSans-Regular.eot') format('embedded-opentype'), 
+         url('MTNBrighterSans-Regular.ttf') format('truetype'), 
+         url('MTNBrighterSans-Regular.woff') format('woff'), 
+         url('MTNBrighterSans-Regular.woff2') format('woff2');
+}     
+@font-face {
+    font-family: 'MTNBrighterSans-RegularItalic';
+    src: url('MTNBrighterSans-RegularItalic.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-RegularItalic.ttf') format('truetype'), 
+        url('MTNBrighterSans-RegularItalic.woff') format('woff'), 
+        url('MTNBrighterSans-RegularItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MTNBrighterSans-Light';
+    src: url('MTNBrighterSans-Light.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-Light.ttf') format('truetype'), 
+        url('MTNBrighterSans-Light.woff') format('woff'), 
+        url('MTNBrighterSans-Light.woff2') format('woff2');
+}   
+@font-face {
+    font-family: 'MTNBrighterSans-LightItalic';
+    src: url('MTNBrighterSans-LightItalic.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-LightItalic.ttf') format('truetype'), 
+        url('MTNBrighterSans-LightItalic.woff') format('woff'), 
+        url('MTNBrighterSans-LightItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraLight';
+    src: url('MTNBrighterSans-ExtraLight.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-ExtraLight.ttf') format('truetype'), 
+        url('MTNBrighterSans-ExtraLight.woff') format('woff'), 
+        url('MTNBrighterSans-ExtraLight.woff2') format('woff2');
+}      
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraLightItalic';
+    src: url('MTNBrighterSans-ExtraLightItalic.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-ExtraLightItalic.ttf') format('truetype'), 
+        url('MTNBrighterSans-ExtraLightItalic.woff') format('woff'), 
+        url('MTNBrighterSans-ExtraLightItalic.woff2') format('woff2');
+}  
+@font-face {
+    font-family: 'MTNBrighterSans-Medium';
+    src: url('MTNBrighterSans-Medium.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-Medium.ttf') format('truetype'), 
+        url('MTNBrighterSans-Medium.woff') format('woff'), 
+        url('MTNBrighterSans-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MTNBrighterSans-MediumItalic';
+    src: url('MTNBrighterSans-MediumItalic.eot') format('embedded-opentype'), 
+         url('MTNBrighterSans-MediumItalic.ttf') format('truetype'), 
+         url('MTNBrighterSans-MediumItalic.woff') format('woff'), 
+         url('MTNBrighterSans-MediumItalic.woff2') format('woff2')
+}
+@font-face {
+    font-family: 'MTNBrighterSans-Bold';
+    src: url('MTNBrighterSans-Bold.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-Bold.ttf') format('truetype'), 
+        url('MTNBrighterSans-Bold.woff') format('woff'), 
+        url('MTNBrighterSans-Bold.woff2') format('woff2');
+}   
+@font-face {
+    font-family: 'MTNBrighterSans-BoldItalic';
+    src: url('MTNBrighterSans-BoldItalic.eot') format('embedded-opentype'), 
+        url('MTNBrighterSans-BoldItalic.ttf') format('truetype'), 
+        url('MTNBrighterSans-BoldItalic.woff') format('woff'), 
+        url('MTNBrighterSans-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraBold';
+    src: url('MTNBrighterSans-ExtraBold.eot') format('embedded-opentype'),
+        url('MTNBrighterSans-ExtraBold.ttf') format('truetype'),
+        url('MTNBrighterSans-ExtraBold.woff') format('woff'),
+        url('MTNBrighterSans-ExtraBold.woff2') format('woff2');
+    }
+
+@font-face {
+    font-family: 'MTNBrighterSans-ExtraBoldItalic';
+    src: url('MTNBrighterSans-ExtraBoldItalic.eot') format('embedded-opentype'),
+        url('MTNBrighterSans-ExtraBoldItalic.ttf') format('truetype'),
+        url('MTNBrighterSans-ExtraBoldItalic.woff') format('woff'),
+        url('MTNBrighterSans-ExtraBoldItalic.woff2') format('woff2');
+    }
