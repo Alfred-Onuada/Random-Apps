@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe | Beat me if you dare</title>
+
+    <!-- Css Links -->
+    <link rel="stylesheet" href="Css/index.css?id=41">
+    <link rel="stylesheet" href="Css/materialize.min.css">
+    <link rel="stylesheet" href="Css/materialize.css">
+
+    <!-- Js Links -->
+    <script defer src="Js/index.js?id=41"></script>
+    <script defer src="Js/materialize.js"></script>
+    <script defer src="Js/materialize.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="intro">
+            <h4 class="introText">Welcome to Tic Tac Toe!!!</h4>
+        </div>
+
+        <div class="turn">
+            <h4 id="turnText" class="turnText">Pick a side to begin.</h4>
+        </div>
+    
+        <div class="character row" id="character">
+            <div class="c col s6">
+                <div id="optX" class="opt">
+                    <h4 class="x">Pick X</h4>
+                </div>
+            </div>
+            <div class="c col s6">
+                <div id="optO" class="opt">
+                    <h4 class="o">Pick O</h4>
+                </div>
+            </div>
+        </div>
+        
+        <div class="coverage">
+            <div class="board" id="board">
+                <div class="cell edgeTL"></div>
+                <div class="cell"></div>
+                <div class="cell edgeTR"></div><br/>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div><br/>
+                <div class="cell edgeBL"></div>
+                <div class="cell"></div>
+                <div class="cell edgeBR"></div>
+            </div>
+        </div>
+    
+        <div class="controls row" id="controls">
+            <div class="c col s12">
+                <div id="optDownR" class="optDown">
+                    <h4 id="optDownRText" class="reset">Reset Game</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
